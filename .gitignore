@@ -132,4 +132,4 @@ dmypy.json
 .idea/
 
 # Django
-*/migrations/
+*/migrations/initial*.py
