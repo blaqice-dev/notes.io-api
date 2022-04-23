@@ -20,4 +20,5 @@ class NoteSerializer(serializers.ModelSerializer):
         updated = timezone.now()
         instance.updated = updated
         instance.save()
+
         return instance
