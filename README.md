@@ -22,4 +22,6 @@ response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)
 
 ```
+
+**Using Postman**
 ![screenshot](screenshots/create_note.png)
