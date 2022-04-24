@@ -42,6 +42,7 @@ response = requests.request("GET", url, headers=headers, data=payload)
 print(response.text)
 
 ```
+**Using Postman**
 ![screenshot](screenshots/retrieve_note.png)
 
 ### Retrieve All Notes
@@ -60,4 +61,5 @@ response = requests.request("GET", url, headers=headers, data=payload)
 print(response.text)
 
 ```
+**Using Postman**
 ![screenshot](screenshots/retrieve_all.png)
