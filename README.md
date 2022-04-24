@@ -1,6 +1,12 @@
 # notes.io-api
 Restful API for notes.io
 
+# Requirements
+* Python 3 
+* Install from requirements.txt
+
+
+# Examples
 ### Create Note
 **Using Python 3**
 ```python
