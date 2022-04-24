@@ -43,3 +43,21 @@ print(response.text)
 
 ```
 ![screenshot](screenshots/retrieve_note.png)
+
+### Retrieve All Notes
+**Using Python 3**
+```python
+
+import requests
+
+url = "localhost:8000/api/v1/notes/"
+
+payload={}
+headers = {}
+
+response = requests.request("GET", url, headers=headers, data=payload)
+
+print(response.text)
+
+```
+![screenshot](screenshots/retrieve_all.png)
