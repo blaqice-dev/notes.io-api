@@ -3,6 +3,8 @@ Restful API for notes.io
 
 # Requirements
 * Python 3 
+* Django (3.0, 3.1, 3.2, 4.0)
+* Django Rest framework 3
 * Install from requirements.txt
 
 
