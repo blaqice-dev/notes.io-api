@@ -1,7 +1,7 @@
 # notes.io API
 Restful API for notes.io
 
-Checkout a simple note application with backend as note.io API: <a href="https://github.com/blaqice-dev/notes.io">notes.io notes.io desktop application</a>
+Checkout a simple note application with backend as note.io API: <a href="https://github.com/blaqice-dev/notes.io">notes.io desktop application</a>
 # Requirements
 * Python 3 
 * Django (3.0, 3.1, 3.2, 4.0)
