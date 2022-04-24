@@ -8,11 +8,11 @@ Restful API for notes.io
 * Install from requirements.txt
 
 # Endpoints
-* Create note (**localhost:8000/api/v1/notes/**)
-* Retrieve all notes (**localhost:8000/api/v1/notes/**)
-* Retrieve note (**localhost:8000/api/v1/notes/<<int:id>>/**)
-* Update note (**localhost:8000/api/v1/notes/<<int:id>>/**)
-* Delete note (**localhost:8000/api/v1/notes/<<int:id>>/**)
+* Create note - **localhost:8000/api/v1/notes/**
+* Retrieve all notes - **localhost:8000/api/v1/notes/**
+* Retrieve note - **localhost:8000/api/v1/notes/<<int:id>>/**
+* Update note - **localhost:8000/api/v1/notes/<<int:id>>/**
+* Delete note - **localhost:8000/api/v1/notes/<<int:id>>/**
 
 
 # Examples
