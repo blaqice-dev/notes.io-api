@@ -1,4 +1,4 @@
-# notes.io-api
+# notes.io API
 Restful API for notes.io
 
 # Requirements
