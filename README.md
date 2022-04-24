@@ -2,7 +2,7 @@
 Restful API for notes.io
 
 ### Create Note
-**Using Python**
+**Using Python 3**
 ```python
 import requests
 import json
@@ -25,3 +25,23 @@ print(response.text)
 
 **Using Postman**
 ![screenshot](screenshots/create_note.png)
+
+&nbsp;
+
+### Retrieve Note
+**Using Python 3**
+```python
+
+import requests
+
+url = "localhost:8000/api/v1/notes/1/"
+
+payload={}
+headers = {}
+
+response = requests.request("GET", url, headers=headers, data=payload)
+
+print(response.text)
+
+```
+![screenshot](screenshots/retrieve_note.png)
