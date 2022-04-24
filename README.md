@@ -25,9 +25,7 @@ print(response.text)
 
 **Using Postman**
 ![screenshot](screenshots/create_note.png)
-
 &nbsp;
-
 ### Retrieve Note
 **Using Python 3**
 ```python
