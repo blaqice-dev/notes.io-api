@@ -63,3 +63,27 @@ print(response.text)
 ```
 **Using Postman**
 ![screenshot](screenshots/retrieve_all.png)
+
+### Update Note
+**Using Python 3**
+```python
+
+import requests
+import json
+
+url = "localhost:8000/api/v1/notes/2/"
+
+payload = json.dumps({
+    "text": "Updated text on Note 2"
+})
+headers = {
+    'Content-Type': 'application/json'
+}
+
+response = requests.request("PATCH", url, headers=headers, data=payload)
+
+print(response.text)
+
+```
+**Using Postman**
+![screenshot](screenshots/update_note.png)
