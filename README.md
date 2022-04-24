@@ -87,3 +87,20 @@ print(response.text)
 ```
 **Using Postman**
 ![screenshot](screenshots/update_note.png)
+
+### Delete Note
+**Using Python**
+```python
+
+import requests
+
+url = "localhost:8000/api/v1/notes/1/"
+
+payload={}
+headers = {}
+
+response = requests.request("DELETE", url, headers=headers, data=payload)
+
+print(response.text)
+
+```
